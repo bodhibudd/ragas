@@ -15,6 +15,7 @@ from ragas.metrics.base import (
     MetricWithLLM,
     SingleTurnMetric,
 )
+from ragas.embeddings.base import BaseRagasEmbeddings
 from ragas.prompt import PydanticPrompt
 
 logger = logging.getLogger(__name__)
